@@ -1,0 +1,7 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+opencv-python==4.8.1.78
+mediapipe==0.10.9
+tensorflow==2.15.1
+numpy==1.26.4

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: auslan-tflite-server
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: AUSLAN_MODEL_PATH
+        value: assets/auslan_detection/model/auslan.tflite

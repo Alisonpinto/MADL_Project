@@ -1,0 +1,63 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.env
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/GeneratedPluginRegistrant.*
+**/generated_plugin_registrant.*
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/ios/**/GeneratedPluginRegistrant.h
+**/ios/**/GeneratedPluginRegistrant.m
+**/generated_plugins.cmake
+
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+/venv
+
+# Generated launcher icons (managed by flutter_launcher_icons)
+/android/app/src/main/res/mipmap-*/ic_launcher.png
+#/android/app/src/main/res/drawable-*/ic_launcher_foreground.png
+/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+#/android/app/src/main/res/values/colors.xml
+#/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+#/ios/Runner/Assets.xcassets/AppIcon.appiconset/*.png
